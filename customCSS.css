@@ -1,0 +1,25 @@
+h4{
+    color:linen;
+    font-size: 15px;
+    padding-left:10px;
+    padding-top:5px;
+    font-family:Georgia, serif;
+}
+.allbtn{
+    font-weight: 600;
+    font-family:sans-serif;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.allbtn:hover{
+    background-color: aqua;
+    color:white;
+}
+.clear{
+    background-color: yellow;
+}
+.equal{
+    background-color:lime;
+}

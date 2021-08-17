@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/bootstrap-css/bootstrap.min.css">
+    <link rel="stylesheet" href="customCSS.css">
+    <title>calculator</title>
+</head>
+<body class="bg-info">
+    <main>
+        <section class="d-flex justify-content-center items-center align-items-center border" style="height: 100vh;">
+            <div class="canvas bg-danger border p-2" style="max-width: 40vh;">
+                    <h4>Model: SAMN-004</h4>
+                <div id="display" class=" bg-dark m-2 my-4 text-white fs-4 p-2 text-end  overflow-hidden" style="height:10vh">
+                    
+                </div>
+
+                <div id="keys" class="m-2"> 
+                        <div class="row mx-auto">
+                            <button id="clear" class=" allbtn col-3 clear">AC</button>
+                            <button id="back" class=" allbtn col-3">&#8594;</button>
+                            <button id="squre" class=" allbtn col-3">&#8730;</button>
+                            <button id="plus" class=" allbtn col-3">+</button>
+                            <button id="num" class="numkey allbtn col-3">1</button>
+                            <button id="num" class="numkey allbtn col-3">2</button>
+                            <button id="num" class="numkey allbtn col-3">3</button>
+                            <button id="mainus"class=" allbtn col-3">-</button>
+                            <button id="num" class="numkey allbtn col-3">4</button>
+                            <button id="num" class="numkey allbtn col-3">5</button>
+                            <button id="num" class="numkey allbtn col-3">6</button>
+                            <button id="multi" class=" allbtn col-3">&times;</button>
+                            <button id="num" class="numkey allbtn col-3">7</button>
+                            <button id="num" class="numkey allbtn col-3">8</button>
+                            <button id="num" class="numkey allbtn col-3">9</button>
+                            <button id="divide" class=" allbtn col-3">&divide</button>
+                            <button id="dot" class="numkey allbtn col-3">.</button>
+                            <button id="num" class="numkey allbtn col-3">0</button>
+                            <button id="equal" class=" allbtn col-6 equal">=</button>
+                        </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="calculator.js"></script>
+</body>
+</html>
